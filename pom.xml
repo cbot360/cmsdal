@@ -3,11 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+      <groupId>com.walmart.devtools.buildsupport</groupId>
+      <artifactId>buildsupport</artifactId>
+      <version>2</version>
+    </parent>
     <groupId>com.oneops.cms</groupId>
     <artifactId>cmsdal</artifactId>
     <packaging>jar</packaging>
     <name>cmsdal</name>
-    <version>1.0.4</version>
+    <version>1.0.5-SNAPSHOT</version>
     <description>DAL layer for CMS</description>
 
     <properties>
@@ -179,4 +184,3 @@
     </dependencies>
 
 </project>
-
