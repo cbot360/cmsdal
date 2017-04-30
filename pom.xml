@@ -10,7 +10,7 @@
     <artifactId>cmsdal</artifactId>
     <packaging>jar</packaging>
     <name>cmsdal</name>
-    <version>1.0.5</version>
+    <version>1.0.6-SNAPSHOT</version>
     <description>DAL layer for CMS</description>
 
     <properties>
@@ -180,9 +180,4 @@
             <version>${jackson-databind.version}</version>
         </dependency>
     </dependencies>
-
-
-  <scm>
-    <tag>release-1.0.5</tag>
-  </scm>
 </project>
